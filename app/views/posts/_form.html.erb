@@ -20,6 +20,10 @@
     <%= form.label :content %>
     <%= form.text_area :content, class:"form-control",rows:15%>
   </div>
+    <div class="field">
+    <%= form.label :image %>
+    <%= form.file_field :image %><br>
+  </div>
 
   <div class="actions">
     <%= form.submit "Save", class:"btn btn-primary mb-2" %>

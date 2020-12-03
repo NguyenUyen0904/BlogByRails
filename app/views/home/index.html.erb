@@ -1,4 +1,3 @@
-<%= link_to "本一覧をみる", posts_path %>
 <div class="jumbotron" style = "text-align: center;">
   <h2>Hôm nay có món gì ngon??</h2>
   </div>
@@ -7,6 +6,7 @@
     <div class="col-sm-4">
     <h4><%=post.title%></h4>
     <p><%= truncate(post.content,length:150)%></p>
+    <image><%=post.image%></image>
     <%= link_to'Read more',post_path(post)%>
     </div>
     <%end%>
